@@ -13,10 +13,10 @@ function add_ssh_public_key() {
 function get_network_info() {
     echo '* settings for cloud agent'
     read -p ' hostname   (ex:cloudstack)   : ' HOSTNAME
-    read -p ' ip address (ex:192.168.1.2)  : ' IPADDR
+    read -p ' ip address (ex:192.168.1.3)  : ' IPADDR
     read -p ' netmask    (ex:255.255.255.0): ' NETMASK
-    read -p ' gateway    (ex:192.168.1.1)  : ' GATEWAY
-    read -p ' dns1       (ex:192.168.1.1)  : ' DNS1
+    read -p ' gateway    (ex:192.168.1.2)  : ' GATEWAY
+    read -p ' dns1       (ex:192.168.1.2)  : ' DNS1
     read -p ' dns2       (ex:8.8.4.4)      : ' DNS2
 }
 
